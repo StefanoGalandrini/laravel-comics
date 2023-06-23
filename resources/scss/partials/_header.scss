@@ -1,0 +1,47 @@
+$color-darkgrey: #303030;
+$color-blue: #0282f9;
+
+.top-bar {
+    height: 100%;
+    max-width: 70vw;
+    margin-inline: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    img {
+        width: 70px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        margin-right: auto;
+    }
+}
+
+nav {
+    height: 100%;
+}
+.menu {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+}
+.item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 1.5rem;
+    font-family: "Encode Sans Condensed";
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    color: $color-darkgrey;
+
+    &:hover {
+        color: $color-blue;
+    }
+}
+
+.active {
+    color: $color-blue;
+    border-bottom: 5px solid $color-blue;
+}
