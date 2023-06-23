@@ -1,9 +1,9 @@
 <div class="jumbotron"></div>
 <main>
-    <div class="container">
+    <div class="main-container">
         <h1>current series</h1>
         @foreach ($comics as $comic)
-            <div class="content">
+            <div class="main-content">
                 @include('components.magazine', ['title' => $comic['series'], 'cover' => $comic['thumb']])
             </div>
         @endforeach

@@ -1,7 +1,7 @@
 $color-darkgrey: #303030;
 $color-blue: #0282f9;
 
-.top-bar {
+.header-top-bar {
     height: 100%;
     max-width: 70vw;
     margin-inline: auto;
@@ -22,27 +22,28 @@ nav {
     display: flex;
     align-items: center;
 }
-.menu {
+.header-menu {
     height: 100%;
     margin: 0;
     list-style-type: none;
     align-items: center;
     display: flex;
-}
-.item {
-    margin-left: 1.5rem;
-    font-family: "Encode Sans Condensed";
-    text-decoration: none;
-    text-transform: uppercase;
-    border-bottom: 5px solid rgba(255, 255, 255, 0);
-    color: $color-darkgrey;
 
-    &:hover {
-        color: $color-blue;
-        border-bottom: 5px solid $color-blue;
+    .item {
+        margin-left: 1.5rem;
+        font-family: "Encode Sans Condensed";
+        text-decoration: none;
+        text-transform: uppercase;
+        border-bottom: 5px solid rgba(255, 255, 255, 0);
+        color: $color-darkgrey;
+
+        &:hover {
+            color: $color-blue;
+            border-bottom: 5px solid $color-blue;
+        }
     }
-}
 
-.active {
-    color: $color-blue;
+    .active {
+        color: $color-blue;
+    }
 }

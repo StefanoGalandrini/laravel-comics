@@ -1,4 +1,4 @@
-.magazine {
+.magazine-content {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -12,7 +12,7 @@
         object-position: top center;
     }
 
-    .title {
+    .magazine-title {
         font-family: "Encode Sans Condensed", sans-serif;
         text-transform: uppercase;
         font-size: 0.8rem;

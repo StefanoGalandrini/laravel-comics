@@ -28,6 +28,9 @@
 
     @include('components.main', ['comics' => $comics])
 
+    @include('components.icons')
+
+    @include('components.footer')
 
 </body>
 

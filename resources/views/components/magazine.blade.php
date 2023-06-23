@@ -1,4 +1,4 @@
-<div class="magazine">
+<div class="magazine-content">
     <img src="{{ $comic['thumb'] }}" alt="" />
-    <p class="title">{{ $comic['title'] }}</p>
+    <p class="magazine-title">{{ $comic['title'] }}</p>
 </div>

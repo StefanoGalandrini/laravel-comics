@@ -16,7 +16,7 @@ main {
     padding-top: 5rem;
     padding-bottom: 2rem;
 
-    .container {
+    .main-container {
         max-width: 70vw;
         margin-inline: auto;
         color: white;
@@ -57,7 +57,7 @@ main {
             margin-bottom: 5rem;
         }
 
-        .content {
+        .main-content {
             width: calc((100% - (5 * 1.5rem)) / 6);
         }
     }

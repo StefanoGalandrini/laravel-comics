@@ -1,8 +1,22 @@
+// Definizione di variabili globali
+$color-darkgrey: #303030;
+$color-blue: #0282f9;
+$color-grey: #353535;
+$color-lightgrey: #909090;
+$marginbottom: 0.4rem;
+$lineheight: 1.7rem;
+
+// Importazione dei file parziali
 @use "partials/header";
 @use "partials/magazine";
 @use "partials/main";
+@use "partials/icons";
+@use "partials/cta";
+@use "partials/footer";
 
 @import "~bootstrap/scss/bootstrap";
+
+@import "@fortawesome/fontawesome-free/css/all.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@600&family=Open+Sans:wght@300;400;600&display=swap");
 
