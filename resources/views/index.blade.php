@@ -26,10 +26,8 @@
         ],
     ])
 
-    @if (isset($comics))
-        @foreach ($comics as $comic)
-        @endforeach
-    @endif
+    @include('components.main', ['comics' => $comics])
+
 
 </body>
 
