@@ -5,19 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Laravel Comics</title>
     @vite('resources/js/app.js')
 
-    <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>Ciao!!!</h1>
-    <img src="{{ Vite::asset('resources/img/laravel.jpg') }}" alt="">
+    <h1>LARAVEL COMICS</h1>
 
 </body>
 

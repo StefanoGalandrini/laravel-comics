@@ -1,9 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
-h1 {
-    color: red;
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@600&family=Open+Sans:wght@300;400;600&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-image: url("../img/bkg.jpg");
+:root {
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
